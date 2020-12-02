@@ -9,13 +9,6 @@ function formatMessage(username,message){
  
 }
 
-let names=[];
-function formatUser(name){
 
-  names.push(name);
-
-  return names;
-
-}
 
 module.exports=formatMessage;

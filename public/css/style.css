@@ -85,7 +85,7 @@ a {
 
 .chat-messages {
   padding: 30px;
-  max-height: 300px;
+  height: 400px;
   overflow-y: scroll;
 }
 
@@ -142,6 +142,7 @@ a {
 .join-main {
   padding: 30px 40px;
   background: var(--dark-color-b);
+  overflow: none;
 }
 
 .join-main p {
@@ -187,11 +188,7 @@ a {
 }
 
 @media (max-width: 700px) {
-  .chat-main {
-    display: block;
-  }
-
   .chat-sidebar {
-    display: none;
+    width: 200px;
   }
 }

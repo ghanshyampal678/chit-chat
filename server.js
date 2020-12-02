@@ -41,7 +41,7 @@ io.on('connection',(socket)=>{
     io.emit("showUsers",removeUser(name));
   })
 
-  //Runs when a client disconnect
+  
   socket.on('disconnection', (msg) => {
    socket.broadcast.emit('message', formatMessage("ChatCord", msg));
 })
